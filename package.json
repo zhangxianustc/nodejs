@@ -1,0 +1,11 @@
+{
+  "name": "zx-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chinese-random-name": "^0.1.3",
+    "graphql-yoga": "^1.16.2",
+    "randomstring": "^1.1.5"
+  }
+}

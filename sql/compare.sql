@@ -1,6 +1,6 @@
 # compare different records of sub_version_1 and sub_version_2
 # version_id of sub_version_1 comes from version_id of version_1
-# version_id of sub_version_2 comes from versionid of version_2
+# versionid of sub_version_2 comes from versionid of version_2
 # 2018/11/9 zhangx
  
 select 

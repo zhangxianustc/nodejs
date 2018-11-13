@@ -1,10 +1,17 @@
 ramda:
 https://blog.csdn.net/qq_25072517/article/details/78520696?locationNum=3&fps=1
 
+nodejs学习资料:
 http://es7.ruanyifeng.com/
 https://nqdeng.github.io/7-days-nodejs/
 https://github.com/alsotang/node-lessons
 https://www.nodebeginner.org/index-zh-cn.html
+
+mocha:
+https://mochajs.org/
+
+nodeschool:
+https://nodeschool.io/
 
 nodejs API官方文档
 http://nodejs.org/api/http.html

@@ -1,0 +1,21 @@
+{
+  "name": "npm",
+  "version": "1.0.1",
+  "description": "This is a npm study project!",
+  "main": "test.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangxianustc/learngit.git"
+  },
+  "author": "zhangx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangxianustc/learngit/issues"
+  },
+  "homepage": "https://github.com/zhangxianustc/nodejs#readme"
+}

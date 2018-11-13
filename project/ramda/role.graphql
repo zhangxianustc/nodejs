@@ -1,0 +1,33 @@
+type Query {
+  getRole(id: Int!): RolePayload!
+  roleList(
+    offset: Int 
+    limit: Int
+    filter: RoleListFilterInput
+    sortBy: SortBy
+  ): RoleListPayload!
+}
+
+input RoleListFilterInput {
+  name: String
+  companyId: Int
+  identity: String
+}
+
+type RoleListPayload {
+  count: Int
+  list: [Role]
+}
+
+type RolePayload {
+  role: Role
+  error: Error 
+}
+
+type Role {
+  id: Int
+  name: String
+  companyId: Int
+  identity: String
+  builtIn: String
+}

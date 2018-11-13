@@ -29,7 +29,7 @@ from
                 and sub_1.version_id = sub_2.versionid 
             )
         where 
-            sub_1.version_id in (select version_id from version_1)  
+            sub_1.version_id in (select version_id from version_1)    
         order by 
             sub_1.version_id, 
             sub_1.sub_version_id
